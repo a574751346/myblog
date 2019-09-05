@@ -1,12 +1,15 @@
 # myblog
 as you see, it's my blog!
 
-2019.05.28
-version 1.0
-primary version.
+* __2019.05.28__
 
-2019.09.05
-version 1.1     
-fixed page function
-fixed to display the most rescent articles first order
+  > __version 1.0__
 
+  * primary version.
+
+* __2019.09.05__
+
+  > __version 1.1__
+
+  * fixed page function.
+  * fixed to display the most rescent articles first order.
