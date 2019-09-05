@@ -40,7 +40,9 @@ class Article(models.Model):
 	def increase_numread(self):
 		self.numread+=1
 		self.save(update_fields=['numread'])
-		
+	
+	class Meta:
+		ordering = ['-created_time']
 class ExampleModel(models.Model):
 	name = models.CharField(max_length=10)
 	content = MDTextField()
